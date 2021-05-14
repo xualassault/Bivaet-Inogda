@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    background: #d4fd56;
+    padding: 48px 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.content-main-wrapper {
+    margin: 0 auto;
+    background: white;
+    padding: 50px;
+    border-radius: 24px;
+    box-sizing: border-box;
+    min-height: fit-content;
+    max-width: fit-content;
+    margin-top: 100px;
+    transition: all 0.5s ease;
+}
+
+.content-description {
+    margin-top: 0;
+}
+
+.content-block {
+    max-width: 360px;
+    justify-items: center;
+    text-align: center;
+    margin: 12px auto;
+}
+
+.content-description-avatar {
+    margin: auto;
+    border: 8px solid white;
+    border-radius: 24px;
+    margin-top: -150px;
+}
+
+.content-description-name {
+    display: block;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 32px;
+    margin-top: -20px;
+}
+
+.content-description-text {
+    display: block;
+    font-weight: normal;
+    color: #808080;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.content-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.content-contact {
+    display: flex;
+    flex-direction: column;
+    line-height: 16px;
+    font-size: 16px;
+    justify-items: center;
+    margin: 0 10px;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+    padding: 16px 24px;
+    border: 1px solid #dbe9ad;
+    border-radius: 24px;
+    margin-bottom: 12px;
+    transition: all 0.2s ease;
+}
+
+.content-contact:hover {
+    transform: scale(1.1);
+}
+
+.content-contact-primary {
+    background: #d4fd56;
+    border: 0px;
+}
+
+.content-footer {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    justify-content: space-evenly
+}
+
+.content-copyright {
+    font-size: 12px;
+    color: #c0c0c0;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.content-reporter {
+    font-size: 12px;
+    color: #c0c0c0;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.content-reporter:hover {
+    color: #be1616;
+}
