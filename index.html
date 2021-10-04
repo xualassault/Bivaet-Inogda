@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,7 @@
     <title>Бывает Иногда</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="countdown.css">
     <link rel="shortcut icon" href="https://cdn-0.emojis.wiki/emoji-pics/microsoft/pile-of-poo-microsoft.png">
 </head>
 <body>
@@ -19,16 +20,49 @@
         </div>
 
         <div class="content-contacts content-block">
-        <a href="https://vk.com/photo438986140_456246411" class="content-contact content-contact-primary">Подрочить 😎</a>
-        <a href="https://vk.me/moneysend/id438986140" class="content-contact">Заказать на ночь 💵</a>
-        <a href="https://vk.com/write438986140" class="content-contact">Написать 📧</a>
+        <a href="https://vk.com/photo438986140_456246411" class="content-contact content-contact-primary" target="_blank">Подрочить 😎</a>
+        <a href="https://vk.me/moneysend/id438986140" class="content-contact" target="_blank">Заказать на ночь 💵</a>
+        <a href="https://vk.com/write438986140" class="content-contact" target="_blank">Написать 📧</a>
         </div>
+
+        <section class="content-countdown">
+          <h1 id="countdown-title" class="countdown-title"><a href="https://youtu.be/POb02mjj2zE" class="content-contact" target="_blank">Ща подойду, ребят (???)</a></h1>
+          <div id="deadline-message" class="deadline-message">Уже подошел, епты</div>
+
+          <div id="countdown" class="countdown">
+
+          <div class="countdown-number">
+          <span class="days countdown-time"></span>
+          <span class="countdown-text">Д</span>
+          </div>
+
+        <div class="countdown-number">
+          <span class="hours countdown-time"></span>
+          <span class="countdown-text">Ч</span>
+        </div>
+      
+        <div class="countdown-number">
+          <span class="minutes countdown-time"></span>
+          <span class="countdown-text">М</span>
+        </div>
+      
+        <div class="countdown-number">
+          <span class="seconds countdown-time"></span>
+          <span class="countdown-text">С</span>
+          </div>
+      </div>
+
+      </section>
 
         <div class="content-footer">
         <p class="content-copyright">© Бывает Иногда, 2021</p>
-        <a href="https://vk.com/write183258711" class="content-reporter" onclick="javascript:alert('Крыса ебаная 😡')">Пожаловаться</a>
+        <a href="https://vk.com/write183258711" class="content-reporter" target="_blank" onclick="javascript:alert('Крыса ебаная 😡')">Пожаловаться</a>
         </div>
 
+        <div class="content-fill"></div>
     </section>
+
+
+<script src="timer.js"></script>
 </body>
 </html>
